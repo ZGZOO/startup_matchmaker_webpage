@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Merriweather:ital,wght@0,700;1,700&family=Oswald:wght@600;700&family=Source+Serif+Pro:wght@600&display=swap");
+
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################## */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+/* Fonts, classes are so I can reuse the styles on a variety of elements */
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+/* Colors */
+/* Dark yellow: #f2ff00 */
+/* Lighter yellow: #ffd900 */
+/* Light gray: #adadad */
+/* Medium gray: #878787 */
+
+/* Background Image */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid gold; */
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-color: black;
+  border-top: 5px solid #35383f;
+  border-bottom: 5px solid #ffff00;
+  margin-top: 0.3em;
+  padding: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+h1 {
+  color: #fbfa00;
+  flex-basis: 15em;
+  text-align: center;
+}
+
+nav {
+  flex-basis: 40em;
+  padding: 0 4em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+#banner {
+  padding: 0.8em 2em;
+  background-color: #c6c6c6;
+  font-style: italic;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#taste {
+  color: #878787;
+  text-decoration: line-through;
+}
+
+#are {
+  border-bottom: 2.4px solid #fbfa00;
+}
+
+#picdiv {
+  height: 27em;
+  background-image: url("../images/coworking.jpg");
+  background-size: cover;
+  background-position: 50% 49%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#middlesection {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #878787;
+  height: 20em;
+  width: 30em;
+  padding: 3em;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section h2 {
+  font-weight: 900;
+}
+
+section p {
+  padding: 0;
+  margin-top: -1em;
+}
+
+button {
+  background-color: #fbfa00;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 3px solid #cdcb08;
+}
+
+#carddiv {
+  height: 17.5em;
+  padding: 0 2em;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  height: 15em;
+  padding: 1em 3em;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card h2 {
+  font-family: "Source Serif Pro", serif;
+}
+
+#card1,
+#card2 {
+  border-right: 1px solid #dadada;
+}
+
+.card button {
+  background-color: #c7c7c7;
+  border-bottom: 3px solid #9e9e9e;
+}
+
+footer {
+  font-family: Helvetica;
+  margin-top: 2.5em;
+  margin-left: 3em;
+  font-size: 1.1em;
+  color: #fff;
+}
